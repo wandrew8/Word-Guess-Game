@@ -1,0 +1,79 @@
+/* All content styling */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+
+.header h1 {
+    color: #fff;
+    font-family: 'Lakki Reddy', cursive;
+    font-size: 8em;
+    
+}
+
+.header p {
+    color: #fff;
+    text-align: center;
+    word-spacing: 0.3em;
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.header {
+    background-image: url('../images/header-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.game-container {
+    background-color: #fff;
+}
+
+main {
+    background-image: url('../images/background-pattern.png');
+}
+
+/* Main Content */
+
+.jumbotron {
+    height: 40%;
+}
+
+.container {
+    width: 85%;
+    border: solid 3px #444;
+    margin: 2% auto;
+    height: 100%;
+}
+
+.character-item {
+    max-width: 100%;
+    height: auto;
+    border-right: solid 5px #444;
+    padding-top: 1%;
+}
+
+p, h3, h2{
+    text-align: center;
+
+}
+
+span {
+    font-size: 4em;
+    padding: 2%;
+    text-align: center;
+    line-height: 1em;
+}
+
+.score {
+    font-size: 3em;
+}
+
